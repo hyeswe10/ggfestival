@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ggfestival/static/css/main.ebed0630.css",
-    "main.js": "/ggfestival/static/js/main.4ff1fda6.js",
+    "main.js": "/ggfestival/static/js/main.94173c0a.js",
     "static/media/main-logo.svg": "/ggfestival/static/media/main-logo.8e4e8567d1d1c757ecb81e7d07cf3ec1.svg",
     "static/media/gray-logo.svg": "/ggfestival/static/media/gray-logo.74b0d7f5449e9bda15b254a3021d396e.svg",
     "static/media/main-calendar.svg": "/ggfestival/static/media/main-calendar.528fd2dba32dbab51454ba3af781e7e3.svg",
@@ -15,17 +15,17 @@
     "static/media/mark.svg": "/ggfestival/static/media/mark.1cede43bc5aacb40db550ae054f39f02.svg",
     "static/media/calendar-2.svg": "/ggfestival/static/media/calendar-2.14d88f84f5f5cc9cdb014ff6e4a87be8.svg",
     "static/media/ScrapIcon-on.svg": "/ggfestival/static/media/ScrapIcon-on.90b38ae2dd7904e03e6506c13c0e1e64.svg",
-    "static/media/mark-2.svg": "/ggfestival/static/media/mark-2.8eb011c245723b8931d679098d3306f7.svg",
     "index.html": "/ggfestival/index.html",
+    "static/media/mark-2.svg": "/ggfestival/static/media/mark-2.8eb011c245723b8931d679098d3306f7.svg",
     "static/media/ScrapIcon-off.svg": "/ggfestival/static/media/ScrapIcon-off.2dca87c5e204015bc9e9d3f8cc21b073.svg",
     "static/media/home-2.svg": "/ggfestival/static/media/home-2.b2d7a0be4d115d1f32aa600c9d5b7ce7.svg",
     "static/media/mark-nonestroke.svg": "/ggfestival/static/media/mark-nonestroke.c9c5bc4178a3c19160c64cd425e79d4c.svg",
     "static/media/Arrow.svg": "/ggfestival/static/media/Arrow.0654dc9629e718356856.svg",
     "main.ebed0630.css.map": "/ggfestival/static/css/main.ebed0630.css.map",
-    "main.4ff1fda6.js.map": "/ggfestival/static/js/main.4ff1fda6.js.map"
+    "main.94173c0a.js.map": "/ggfestival/static/js/main.94173c0a.js.map"
   },
   "entrypoints": [
     "static/css/main.ebed0630.css",
-    "static/js/main.4ff1fda6.js"
+    "static/js/main.94173c0a.js"
   ]
 }
