@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ggfestival/static/css/main.ebed0630.css",
-    "main.js": "/ggfestival/static/js/main.25eb5867.js",
+    "main.js": "/ggfestival/static/js/main.3cd2e626.js",
     "static/media/main-logo.svg": "/ggfestival/static/media/main-logo.8e4e8567d1d1c757ecb81e7d07cf3ec1.svg",
     "static/media/gray-logo.svg": "/ggfestival/static/media/gray-logo.74b0d7f5449e9bda15b254a3021d396e.svg",
     "static/media/main-calendar.svg": "/ggfestival/static/media/main-calendar.528fd2dba32dbab51454ba3af781e7e3.svg",
@@ -22,10 +22,10 @@
     "static/media/mark-nonestroke.svg": "/ggfestival/static/media/mark-nonestroke.c9c5bc4178a3c19160c64cd425e79d4c.svg",
     "static/media/Arrow.svg": "/ggfestival/static/media/Arrow.0654dc9629e718356856.svg",
     "main.ebed0630.css.map": "/ggfestival/static/css/main.ebed0630.css.map",
-    "main.25eb5867.js.map": "/ggfestival/static/js/main.25eb5867.js.map"
+    "main.3cd2e626.js.map": "/ggfestival/static/js/main.3cd2e626.js.map"
   },
   "entrypoints": [
     "static/css/main.ebed0630.css",
-    "static/js/main.25eb5867.js"
+    "static/js/main.3cd2e626.js"
   ]
 }
