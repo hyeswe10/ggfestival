@@ -74,7 +74,6 @@ const Mainpage = ({baseLocate}) => {
             <p>모일수록 커지는 즐거움</p>
           </div>
           <FestivalWrap />
-          <FestivalUpdate/>
         </div>
       </section>
     </main>
