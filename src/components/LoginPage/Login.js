@@ -27,7 +27,7 @@ const Login = () => {
       })
       setPopUp(true)
     } else if (data){
-      saveUserInfo(data)
+      saveUserInfo(data);
       navigate('/')
     }
   }

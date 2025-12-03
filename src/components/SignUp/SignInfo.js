@@ -87,7 +87,7 @@ const SignInfo = () => {
             email:email,
             phone:phone
         });
-        success ? console.log('성공') : console.log('실패');
+        success ? navigate('/signup/complete') : console.log('실패');
     }
     
     // 회원가입 버튼
@@ -131,7 +131,6 @@ const SignInfo = () => {
             return;
         }
         insertSignUp();
-        navigate('/signup/complete');
     }
     // 비밀번호 input 일치하지않는 문구
     useEffect(()=>{
