@@ -21,7 +21,7 @@ const FestivalUpdate = () => {
                     serviceKey: encodeURIComponent(API_KEY),
                     MobileOS: 'ETC',
                     MobileApp: 'ggfestival',
-                    eventStartDate: '20250101',
+                    eventStartDate: '20251001',
                     areaCode: 31,
                     numOfRows: 200,
                     _type: 'json'

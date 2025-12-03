@@ -10,6 +10,7 @@ import { IoSearch } from "react-icons/io5";
 import FestivalWrap from './FestivalWrap';
 import Comming from './Comming';
 import GMap from './GMap';
+import FestivalUpdate from '../../utils/FestivalUpdate';
 
 const Mainpage = ({baseLocate}) => {
   const navigate = useNavigate();
@@ -73,6 +74,7 @@ const Mainpage = ({baseLocate}) => {
             <p>모일수록 커지는 즐거움</p>
           </div>
           <FestivalWrap />
+          <FestivalUpdate/>
         </div>
       </section>
     </main>
