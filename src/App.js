@@ -11,7 +11,6 @@ import DeleteComplete from './components/MyPage/DeleteComplete';
 import CommentList from './components/MyPage/CommentList';
 import MyMarks from './components/MyPage/MyMarks';
 import MainMap from './components/FestivalMap/MainMap'
-import MainPageTest from './components/MainPageTest';
 import FestivalDetail from "./components/FestivalDetail/FestivalDetail";
 import FestivalCalendar from "./components/CalendarPage/FestivalCalendar";
 import FindPage from "./components/FindPage/FindPage";
