@@ -4,6 +4,7 @@ import { festivalDB } from "./FestivalAPI";
 import response from './SigunguCode.json';
 
 const FestivalUpdate = () => {
+    const supabase = process.env.REACT_APP_SUPABASE_KEY;
     const API_KEY = process.env.REACT_APP_FESTIVAL_KEY;
     const URL_BASE = process.env.REACT_APP_FESTIVAL_BASE;
     const getSigunguName = (code) => {
@@ -21,7 +22,7 @@ const FestivalUpdate = () => {
                     serviceKey: encodeURIComponent(API_KEY),
                     MobileOS: 'ETC',
                     MobileApp: 'ggfestival',
-                    eventStartDate: '20251001',
+                    eventStartDate: '20260101',
                     areaCode: 31,
                     numOfRows: 200,
                     _type: 'json'
@@ -90,7 +91,7 @@ const FestivalUpdate = () => {
             console.log(e);
         }
     }
-
+    console.log(supabase);
     //경기도 축제중에서 
     return (
         <div id="fest-update">

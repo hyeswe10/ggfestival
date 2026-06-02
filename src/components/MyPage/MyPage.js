@@ -79,7 +79,7 @@ const MyPage = () => {
         </div>
         <div className='user-details'>
           <p>반갑습니다!</p>
-          <h4>{userInfo.userName}님</h4>
+          <h4>{userInfo.name}님</h4>
         </div>
         <BiPencil className="edit-icon" onClick={handleGoPWCheck} />
       </div>

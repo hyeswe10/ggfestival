@@ -76,6 +76,7 @@ const Mainpage = ({baseLocate}) => {
           <FestivalWrap />
         </div>
       </section>
+      {/* <FestivalUpdate/> */}
     </main>
   );
 };

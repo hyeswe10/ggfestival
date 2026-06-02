@@ -120,7 +120,7 @@ export const fetchSignUp = async ({ userID, password, userName, email, phone }) 
       .insert([{
         userid: userID,
         password: password,
-        userName: userName,
+        name: userName,
         email: email,
         phone: phone,
         profile_image_url: profileImageUrl
