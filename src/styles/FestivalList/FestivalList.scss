@@ -1,7 +1,8 @@
 #festivalList {
-  max-width: 768px;
+  width: 100%;
+  // max-width: 768px;
   height: 100%;
-  padding: 16px 16px 70px 16px;
+  padding: 20px 20px 70px 20px;
   gap: 12px;
 
   .region-filter {
@@ -173,8 +174,13 @@
   .fillter-list-display {
     padding-top: 1rem;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .no-results {
+      width: 100%;
+      min-width: 0;
       .no-search {
         width: 100%;
         height: 20rem;
@@ -187,6 +193,8 @@
 
       .festivalWrap {
         word-break: break-all;
+        width: 100%;
+        min-width: 0;
         .festivalWrap-name{
           @include h4-style;
           color: var(--gray-900);
@@ -214,6 +222,9 @@
           overflow-x: auto;
           gap: 12px;
           scrollbar-width: none;
+          width: 100%;
+          min-width: 0;
+          max-width: 100%;
 
           .festivalitem {
             @include flex-layout(column);
@@ -269,6 +280,8 @@
     }
 
     .festival-grid {
+      width: 100%;
+      max-width: 768px;
       @include flex-layout();
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -277,6 +290,7 @@
       .festival-card {
         padding-top: 1rem;
         width: 100%;
+        max-width: 350px;
         @include flex-layout(column, flex-start, center);
         position: relative;
         overflow: hidden;

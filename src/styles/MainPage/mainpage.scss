@@ -279,6 +279,9 @@
         gap: 12px;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none; /* IE, Edge */
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
         .festivalitem {
           @include flex-layout(column);
           width: 140px;

@@ -6,7 +6,7 @@
 // 캘린더 전체 감싸는 wrap
 #calendar {
   width: 100%;
-  max-width: 768px;
+  // max-width: 768px;
   @include flex-layout(column);
   word-break: keep-all;
   * {
@@ -14,8 +14,11 @@
   }
 }
 .calendar-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  max-width: 768px;
+  // max-width: 768px;
   height: 100%;
   padding: 25px 0;
   margin-top: 50px;

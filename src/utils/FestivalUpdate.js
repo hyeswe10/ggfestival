@@ -4,7 +4,6 @@ import { festivalDB } from "./FestivalAPI";
 import response from './SigunguCode.json';
 
 const FestivalUpdate = () => {
-    const supabase = process.env.REACT_APP_SUPABASE_KEY;
     const API_KEY = process.env.REACT_APP_FESTIVAL_KEY;
     const URL_BASE = process.env.REACT_APP_FESTIVAL_BASE;
     const getSigunguName = (code) => {
@@ -19,20 +18,29 @@ const FestivalUpdate = () => {
         try{
             const searchRes = await axios.get(`${URL_BASE}/searchFestival2`,{
                 params:{
-                    serviceKey: encodeURIComponent(API_KEY),
+                    serviceKey: API_KEY,
                     MobileOS: 'ETC',
                     MobileApp: 'ggfestival',
-                    eventStartDate: '20260101',
-                    areaCode: 31,
+                    eventStartDate: '20251231',
+                    eventEndDate: '20261231',
+                    lDongRegnCd: 41,
                     numOfRows: 200,
                     _type: 'json'
                 }
             })
             const items = searchRes.data.response.body.items.item;
+            const bodyCount = searchRes.data.response.body;
+            console.log('총 축제 수: ' + bodyCount.totalCount);
 
             for (const item of items){
                 const contentid = item.contentid;
-                const sigungucode = item.sigungucode;
+                const sigungucode = item.lDongSignguCd;
+
+                // firstimage와 firstimage2 둘 다 없을 때만 건너뛰기
+                if ((!item.firstimage || item.firstimage.trim() === '') &&
+                    (!item.firstimage2 || item.firstimage2.trim() === '')) {
+                    continue;
+                }
                 //공통정보 꺼내오기
                 const commonRes = await axios.get(`${URL_BASE}/detailCommon2`,{
                     params:{
@@ -91,7 +99,6 @@ const FestivalUpdate = () => {
             console.log(e);
         }
     }
-    console.log(supabase);
     //경기도 축제중에서 
     return (
         <div id="fest-update">

@@ -363,9 +363,6 @@ const FestivalList = ({ setSearchWord, searchWord }) => {
             value={selectedRegion}
             onChange={handleRegionChange}
           >
-                      <div className='select-wrapper'>
-            <span>▼</span>
-            </div>
             <option value="all">경기도 전체</option>
             <option value="east">경기 동부권</option>
             <option value="west">경기 서부권</option>
