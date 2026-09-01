@@ -63,7 +63,7 @@ const MainMap = () => {
     // console.log(festivalData);
 
   //현재 위치를 가져오는 geolocation 외부 API
-  //avigator.geolocation 객체로 접근하여 getCurrentPosition 메서드를 호출하면 현재 위치를 비동기식으로 가져올 수 있음
+  //navigator.geolocation 객체로 접근하여 getCurrentPosition 메서드를 호출하면 현재 위치를 비동기식으로 가져올 수 있음
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
